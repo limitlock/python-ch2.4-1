@@ -56,3 +56,20 @@ for i in range(1, 10):
         print(str(j) + ' x ' + str(i) + ' = ' + str(i*j), end='\t')
     else:
         print('')
+
+# 삼각형
+for i in range(0, 10):
+    for j in range(0, i+1):
+        print('*', end='')
+    else:
+        print('')
+
+# 역삼각형
+for i in range(10, 0, -1):
+    print(i, end=' ')
+
+# 삼각형 별해
+# 중첩 for문을 사용하지 않고 작성 해보기
+
+# 역삼각형 별해
+# 중첩 for문을 사용하지 않고 작성 해보기
