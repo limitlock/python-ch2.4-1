@@ -43,7 +43,6 @@ print('-------------------')
 for i in range(10):
     if i <= 5:
         continue
-
     print(i, end=' ')
 else:
     print('')
@@ -66,10 +65,17 @@ for i in range(0, 10):
 
 # 역삼각형
 for i in range(10, 0, -1):
-    print(i, end=' ')
+    for j in range(0, i):
+        print('*', end='')
+    else:
+        print('')
 
 # 삼각형 별해
 # 중첩 for문을 사용하지 않고 작성 해보기
+for i in range(1, 11):
+    print('*' * i)
 
 # 역삼각형 별해
 # 중첩 for문을 사용하지 않고 작성 해보기
+for i in range(10, 0, -1):
+    print('*' * i)
